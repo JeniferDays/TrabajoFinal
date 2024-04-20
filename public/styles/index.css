@@ -1,0 +1,78 @@
+/* condiciones iniciales en css */
+
+
+body{
+    background-image: url(/assets/fondo-patron-linea-rosa-abstracto-banner-sitio-web-o-tarjeta-poster-festivo-diseno-grafico_120819-1493.avif);
+    background-position: center center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+
+
+.logo {
+    width: 50px;
+}
+
+.MiMenuNavegacion {
+    background-color: #8f7193;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.MiCarrusel {
+    background-position: center ;
+    background-repeat: no-repeat;
+    height: 800px;
+    
+}
+
+main{
+
+    display: flex;
+    justify-content: left;
+    margin: 20px;
+    .imagen { width: 600px;}
+}
+
+
+ .imagen{
+    border: solid red;
+    width: 100vw;
+ }
+
+ .tituloPautas{
+text-align: center;
+   color: blueviolet;
+    
+ }
+
+ .advertencia{
+    text-align: center;
+    color: red;
+    font-size: x-large;
+ }
+ 
+
+ /* Medias Queries */
+
+ @media screen and (min-width: 600px){
+
+.imagen{
+    border: 10px solid blue;
+    width: 50vw;
+}
+
+ }
+
