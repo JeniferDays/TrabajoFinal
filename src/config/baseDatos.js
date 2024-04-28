@@ -16,4 +16,4 @@ try{
 }
 
 //TENEMOS QUE EXPORTAR NUESTRA FUNCION PARA LLAMARLA DESDE NUESTRO SERVIDOR
-export default conexionMongo
+export default conexionMongo;
