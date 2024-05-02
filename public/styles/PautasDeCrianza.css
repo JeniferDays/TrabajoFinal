@@ -3,3 +3,40 @@
     color: brown;
     font-size: 500%;
 }
+.Titulo {
+    background-color: rgb(69, 68, 177);
+    color: azure;
+    font-family: 'poppirs', sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 800;
+    text-shadow: 2px 5px #000;
+    border-radius: 15px;
+}
+.texto1{
+
+color: white;
+font-size: 30px;
+text-transform: uppercase;
+text-shadow: 2px 5px #000;
+}
+.titulo2{
+    color:cornsilk ;
+    font-family: "Jersey 25", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase
+}
+.parrafos {
+color: white;
+font-size: 20px;
+font-style: italic;
+;
+}
+.titulo1{
+    color:cornsilk ;
+    font-family: "Jersey 25", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase
+}
